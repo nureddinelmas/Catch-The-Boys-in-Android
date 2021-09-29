@@ -9,15 +9,10 @@
 
     <GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="57dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        android:layout_width="404dp"
+        android:layout_height="545dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="57dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -221,8 +216,8 @@
 
         <ImageView
             android:id="@+id/imageView20"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_row="5"
 
             android:layout_column="0"
@@ -231,8 +226,8 @@
 
         <ImageView
             android:id="@+id/imageView21"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_row="5"
 
             android:layout_column="1"
@@ -241,8 +236,8 @@
 
         <ImageView
             android:id="@+id/imageView22"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_row="5"
 
             android:layout_column="2"
@@ -251,8 +246,8 @@
 
         <ImageView
             android:id="@+id/imageView23"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_row="5"
 
             android:layout_column="3"
@@ -264,13 +259,9 @@
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="3dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp">
 
         <TextView
             android:id="@+id/textWho"

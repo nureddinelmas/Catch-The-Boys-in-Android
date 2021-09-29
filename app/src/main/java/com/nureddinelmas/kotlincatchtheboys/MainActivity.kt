@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         radioGroup.setOnCheckedChangeListener{ group, checkedId ->
             if (checkedId == R.id.easy){
+
                delayMilis = 500
             }
             if (checkedId == R.id.middle){
